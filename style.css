@@ -1,0 +1,63 @@
+#div1 {
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 8px;
+    color: #133f3b;
+    text-align: center; 
+}
+
+#restaurant-name {
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0f4c45;
+}
+
+#welcome-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#mochi-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 0 auto; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#mochi-table th, 
+#mochi-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#mochi-table th {
+    background-color: #13635f;
+    color: white;
+}
+
+#mochi-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#info {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+#watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    opacity: 0.15;      
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    pointer-events: none;  
+}
+

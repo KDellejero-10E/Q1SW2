@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+  <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+  <title>Mochi Menu</title>
+</head>
+<body>
+  <py-config>
+    packages = []
+  </py-config>
+
+  <div id="div1">
+    <h2 id="restaurant-name"></h2>
+    <p id="welcome-text"></p>
+
+    <table id="mochi-table">
+      <thead>
+        <tr>
+          <th>Mochi Name</th>
+          <th>Flavor</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="mochi-body">
+      </tbody>
+    </table>
+
+
+    <div id="info">
+      <p id="location"></p>
+      <p id="hours"></p>
+    </div>
+  </div>
+
+  <div id="watermark">Keisha Dellejero | 10E</div>
+
+  <script type="py" src="main.py"></script>
+</body>
+</html>
+
+
